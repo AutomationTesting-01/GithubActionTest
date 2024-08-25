@@ -3,7 +3,7 @@ name: First Worlflow
 on: workflow_dispatch
 jobs:
   first-job:
-    runs-on: macos
+    runs-on: macos-latest
     steps:
       - name: print greeting
         run: echo "Hello, world!"
